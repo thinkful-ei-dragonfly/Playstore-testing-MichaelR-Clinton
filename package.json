@@ -1,7 +1,6 @@
 {
   "name": "google-play-express-miker-robert",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
@@ -28,5 +27,10 @@
     "ndb": "^1.0.45",
     "nodemon": "^1.19.1",
     "supertest": "^4.0.2"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [],
+  "description": ""
 }
