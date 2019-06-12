@@ -51,11 +51,13 @@ app.get("/apps", (req, res) => {
   }
   // console.log()
 
-  arrPlaystore = JSON.stringify(playstore);
+  // arrPlaystore = JSON.stringify(playstore);
 
   // const arrPlaystore = playstore.json();
 
-  res.status(200).send(arrPlaystore);
+  res.status(200).json(playstore);
 });
 
 app.listen(8080, () => console.log('listening on 8080'));
+
+module.exports = app;
